@@ -81,14 +81,11 @@ WSGI_APPLICATION = 'chronic_disease_ai.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'chronic_ai_db',
-        'USER': 'chronic_user',
-        'PASSWORD': 'chronic123',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 
 # Password validation

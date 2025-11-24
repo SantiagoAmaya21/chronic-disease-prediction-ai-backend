@@ -1,0 +1,11 @@
+django
+djangorestframework
+django-cors-headers
+django-extensions
+
+psycopg2
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+joblib
